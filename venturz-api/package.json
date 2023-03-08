@@ -1,22 +1,13 @@
 {
-  "name": "pedatelaboilerplatejs",
+  "name": "venturz-api",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js",
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pedatela/boilerplatejs.git"
+    "start": "nodemon src/server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pedatela/boilerplatejs/issues"
-  },
-  "homepage": "https://github.com/pedatela/boilerplatejs#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
