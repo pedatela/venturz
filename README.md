@@ -30,10 +30,14 @@ DB_USER=
 DB_PASSWORD=
 DB_NAME=
 ```
+then you can create a database, after that you can run:
 
-you can run:
+``` npx sequelize-cli db:migrate ```<br />
+``` npx sequelize-cli db:seed:all ```
 
-### `yarn start`
+then:
+
+`yarn start`
 
 Runs the server in the development mode.<br />
 Open [http://localhost:5000/api](http://localhost:3000) to view it in the browser.
